@@ -8,7 +8,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler as AIS
 session = "CourseBot"
 api_hash = "your api_hash"
 api_id = 0 # your api_id
-config = Config(api_hash=api_hash, api_id=api_id, bot_token="5351228692:AAGeUUmz1B-ZLNa__CcfeJRHLmTEgm5qGQg")
+config = Config(api_hash=api_hash, api_id=api_id, bot_token="your_token")
 app: Client = config.setclient()
 
 base = Courses()
